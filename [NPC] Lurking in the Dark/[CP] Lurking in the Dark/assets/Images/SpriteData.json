@@ -1,0 +1,145 @@
+{
+    "Changes": [
+        //Sen Defaults       
+        {
+            "Action": "Load",
+            "Target": "Characters/SenS, Portraits/SenS",
+            "FromFile": "assets/images/{{TargetPathOnly}}/sen.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/SenS_Kid, Portraits/SenS_Kid",
+            "FromFile": "assets/images/{{TargetPathOnly}}/SenFlashback.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/SenS_Default, Characters/SenS_Default",
+            "FromFile": "assets/images/{{TargetPathOnly}}/sen.png"
+        },
+        //Animations
+        {
+            "LogName": "Sen Animations",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "sen_read": "16/16 17 18 19 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+                "sen_wigglesit": "20/20 21 21 22 22 23 23 20/20",
+                "sen_map": "24/24 24 24 24 24 24 25 26 25 26 25 24 24 24 24 24 24 24 24 24/24",
+                "sen_crochet": "29/29 30 30 30 30 30 29 29 29 29 29/29",
+                "sen_sit": "20/20 20 20/20"
+            }
+        },
+        //Festival Costumes
+        {
+            "LogName": "Egg Festival Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenEggFestival.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp",
+                "DayEvent": "egg festival, Fairy Ring Feast"
+            }
+        },
+        {
+            "LogName": "Flower Dance Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenFlowerDance.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp",
+                "DayEvent": "flower dance"
+            }
+        },
+        {
+            "LogName": "Luau Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenLuau.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp",
+                "DayEvent": "luau, Pelican Town Potluck, Moonshine Barbecue"
+            }
+        },
+        {
+            "LogName": "Moonlight Jelly Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenMoonlightJelly.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp, beach",
+                "DayEvent": "dance of the moonlight jellies"
+            }
+        },
+        {
+            "LogName": "Fair Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenStardewFair.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp",
+                "DayEvent": "stardew valley fair"
+            }
+        },
+        {
+            "LogName": "Spirits Eve Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenSpiritsEve.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp",
+                "DayEvent": "spirit's eve"
+            }
+        },
+        {
+            "LogName": "Holiday Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/SenHoliday.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Temp",
+                "DayEvent": "festival of ice, feast of the winter star"
+            }
+        },
+        {
+            "LogName": "Night Market Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/SenS, Characters/SenS",
+            "FromFile": "assets/Images/{{TargetPathOnly}}/SenCloak.png",
+            "When": {
+                "Season": "winter",
+                "Day": "15, 16, 17"
+            }
+        },
+        {
+            "LogName": "Senbrella Overworld",
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Images/Characters/Senbrella.png",
+            "Update": "OnTimeChange",
+            "When": {
+                "IsOutdoors": "true",
+                "Weather": "Sun, Wind, Snow",
+                "Time": "{{Range: 1700, 1930}}",
+                 "Query: '{{Season}}'  = 'winter' AND ({{Day}} = 15 OR {{Day}} = 16 OR {{Day}} = 17)": false
+            }
+        },
+        //TEMP ACTORS
+        {
+            "Action": "Load",
+            "Target": "Characters/Skrell, Portraits/Skrell",
+            "FromFile": "assets/images/{{TargetPathOnly}}/Skrell.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Ebb, Portraits/Ebb",
+            "FromFile": "assets/images/{{TargetPathOnly}}/Ebb.png"
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "SenS_Engaged": "{{i18n:Relationship.SenS.Engaged.{{PartnershipType}}}}",
+                "SenS_AfterWedding": "{{i18n:Relationship.SenS.AfterWedding.{{PartnershipType}}}}",
+                "SenS_Stardrop": "{{i18n:Relationship.SenS.StarDrop.{{PartnershipType}}}}"
+            }
+        },
+        {
+            "LogName": "Roommate Route Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
+            "Entries": {
+                //Location
+                "patio_SenS": "{{i18n:Relationship.SenS.Patio.{{PartnershipType}}.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "spouseRoom_SenS": "{{i18n:Relationship.SenS.SpouseRoom.{{PartnershipType}}.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "funLeave_SenS": "{{i18n:Relationship.SenS.FunLeave.{{PartnershipType}}.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "funReturn_SenS": "{{i18n:Relationship.SenS.FunReturn.{{PartnershipType}}.{{Random:1++2++3++4|inputSeparator=++}}}}",
+
+                //GENERIC DIALOGUE
+                "Rainy_Day_SenS": "",
+                "Rainy_Day_0": " ",
+                "Rainy_Day_1": " ",
+                "Rainy_Day_2": " ",
+                "Rainy_Day_3": " ",
+                "Rainy_Day_4": " ",
+                "Rainy_Day_5": " ",
+
+                "Rainy_Night_SenS": " ",
+                "Rainy_Night_0": " ",
+                "Rainy_Night_1": " ",
+                "Rainy_Night_2": " ",
+                "Rainy_Night_3": " ",
+                "Rainy_Night_4": " ",
+                "Rainy_Night_5": " ",
+
+                "Indoor_Day_SenS": " ",
+                "Indoor_Day_0": " ",
+                "Indoor_Day_2": " ",
+                "Indoor_Day_3": " ",
+                "Indoor_Day_4": " ",
+                "Indoor_Day_5": " ",
+
+                "Indoor_Night_SenS": " ",
+                "Indoor_Night_0": " ",
+                "Indoor_Night_1": " ",
+                "Indoor_Night_2": " ",
+                "Indoor_Night_4": " ",
+                "Indoor_Night_5": " ",
+
+                "Outdoor_SenS": " ",
+                "Outdoor_0": " ",
+                "Outdoor_1": " ",
+                "Outdoor_2": " ",
+                "Outdoor_3": " ",
+                "Outdoor_4": " ",
+
+                "OneKid_0": " ",
+                "OneKid_1": " ",
+                "OneKid_2": " ",
+                "OneKid_3": " ",
+                "OneKid_4": " ",
+
+                "TwoKids_0": " ",
+                "TwoKids_1": " ",
+                "TwoKids_2": " ",
+                "TwoKids_3": " ",
+                "TwoKids_4": " ",
+
+                //AFFECTION DIALOGUE
+                "Good_0": " ",
+                "Good_1": " ",
+                "Good_2": " ",
+                "Good_3": " ",
+                "Good_4": " ",
+                "Good_5": " ",
+                "Good_6": " ",
+                "Good_7": " ",
+                "Good_8": " ",
+                "Good_9": " ",
+
+                "Neutral_0": " ",
+                "Neutral_1": " ",
+                "Neutral_2": " ",
+                "Neutral_3": " ",
+                "Neutral_4": " ",
+                "Neutral_5": " ",
+                "Neutral_6": " ",
+                "Neutral_8": " ",
+                "Neutral_9": " ",
+
+                "Bad_0": " ",
+                "Bad_1": " ",
+                "Bad_2": " ",
+                "Bad_3": " ",
+                "Bad_4": " ",
+                "Bad_5": " ",
+                "Bad_6": " ",
+                "Bad_7": " ",
+                "Bad_8": " ",
+                "Bad_9": " ",
+
+                //SPECIAL DATES   
+                "spring_SenS": "{{i18n:Relationship.SenS.Spring}}",
+                "spring_12": "{{i18n:Relationship.SenS.Spring.d12}}", //Day before Egg festival
+                "spring_13": "{{i18n:Relationship.SenS.Spring.d13}}", // Egg festival
+                "spring_20": "{{i18n:Relationship.SenS.Spring.d20}}",
+                "spring_23": "{{i18n:Relationship.SenS.Spring.d23}}", // Day Before Flower Dance
+                "spring_24": "{{i18n:Relationship.SenS.Spring.d24.{{PartnershipType}}}}", //Flower Dance
+
+                "summer_SenS": "{{i18n:Relationship.SenS.Summer}}",
+                "summer_10": "{{i18n:Relationship.SenS.Summer.d10}}", // Day before Luau
+                "summer_11": "{{i18n:Relationship.SenS.Summer.d11}}", // Luau
+                "summer_27": "{{i18n:Relationship.SenS.Summer.d27}}", //Day before Moonlight Jelly
+                "summer_28": "{{i18n:Relationship.SenS.Summer.d28}}", //Moonlight Jelly
+
+                "fall_SenS": "{{i18n:Relationship.SenS.Fall}}",
+                "fall_15": "{{i18n:Relationship.SenS.Fall.d15.{{PartnershipType}}}}", //Day before stardew fair
+                "fall_16": "{{i18n:Relationship.SenS.Fall.d16.{{PartnershipType}}}}", //Stardew Fair
+                "fall_26": "{{i18n:Relationship.SenS.Fall.d26}}", //Day before Spirits Eve
+                "fall_27": "{{i18n:Relationship.SenS.Fall.d27}}", //Spirits Eve
+
+                "winter_SenS": "{{i18n:Relationship.SenS.Winter}}",
+                "winter_7": "{{i18n:Relationship.SenS.Winter.d7}}", //day before ice festival
+                "winter_8": "{{i18n:Relationship.SenS.Winter.d8}}", //ice festival
+                "winter_25": "{{i18n:Relationship.SenS.Winter.d25.{{PartnershipType}}}}", //Winter Star
+                "winter_28": "{{i18n:Relationship.SenS.Winter.d28.{{PartnershipType}}}}" //Day before new year
+            }
+        },
+        {
+            "LogName": "Dialogue changes post-partners",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+                //custom fixed
+                "ExtraDialogue_Spouse_KitchenBlocked": "",
+                "ExtraDialogue_Spouse_MonstersInHouse": "",
+                "NoBed_0": "",
+                "NoBed_1": "",
+                "NoBed_2": "",
+                "NoBed_3": "",
+                "GiftReaction_Void_Ghost_Pendant": "{{i18n:Gifts.SenS.GiftReaction.VoidPendant.Relationship}}",
+                "GiftReaction_Void_Ghost_Pendant_Birthday": "{{i18n:Gifts.SenS.GiftReaction.VoidPendant.Birthday.Relationship}}",
+                "GiftReaction_Bug_Steak": "{{i18n:Gifts.SenS.GiftReaction.BugSteak.Relationship}}",
+                "NPC.cs.4275": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}", //pos Birthday
+                "NPC.cs.4281": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}" //neutral Birthday
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "LogName": "Sen Housemate Schedule",
+    "Action": "EditData",
+    "Target": "Characters/schedules/SenS",
+    "Entries": {
+        "rain": "0 Town 110 78/610 Town 97 81 0/700 109 91 3/800 55 85 1/1000 47 71 0/1100 52 64 0/1200 19 90 0/1300 13 87 0/1400 43 77 sen_wigglesit/1700 70 91 sen_wigglesit/1900 27 23/2100 20 62 3/2300 35 79",
+        "rain2": "0 Custom_ESDeepDark 26 19/610 26 19 sen_read/700 Custom_EastScarpe 48 21/900 39 15 3/1000 46 4 0/1100 38 5 3/1200 48 11 1/1300 52 13 0/1400 63 15 0/1500 71 16 3/1600 72 16/1700 60 21 1/1900 55 84 sen_wigglesit/2100 43 114/2300 14 90",
+        "Mon": "0 Mine 13 8/610 13 8 sen_read/900 13 10 3/1100 24 4 sen_read/1300 13 10 3/1500 12 5 sen_map/1700 Mountain 79 30 3/1800 93 34 1/1900 31 21 0/2100 45 20 1/2300 67 21 sen_read",
+        "Tue": "0 Custom_ESDeepDark 25 17/700 21 22 sen_read/900 28 19 0/1100 23 20 sen_crochet/1300 18 17 3/1500 21 21 sen_wigglesit/1700 Custom_ESOrchard 2 15/1900 Custom_ESOrchardHouse 13 19 0/2100 13 19 sen_read/2300 1 8 sen_wigglesit",
+        "Wed": "0 Town 102 15/610 102 15 sen_read/900 99 9 sen_read/1100 98 4 3/1300 98 4 sen_read/1500 99 9 sen_map/1700 97 81 0/1900 109 91 3/2100 55 85 1/2300 37 96 sen_crochet",
+        "Thu": "0 Custom_ESDeepDark 25 17/700 21 22 sen_read/900 28 19 0/1100 23 20 sen_crochet/1300 18 17 3/1500 21 21 sen_wigglesit/1700 Custom_EastScarpe 46 20 3/1800 38 14/1900 37 10 1/2000 64 6 0/2100 54 40 sen_wigglesit/2300 47 40 sen_wigglesit",
+        "Fri": "0 Forest 99 100/610 99 100 sen_crochet/900 93 100 sen_read/1100 116 90/1300 104 74 3/1500 104 73 sen_crochet/1700 33 96/1900 58 87/2100 38 61/2300 107 35 0",
+        "Sat": "0 Sewer 32 16/610 32 17/900 31 19 0/1100 17 28/1300 31 19 0/1400 8 21 0/1500 30 17/1700 31 19 0/1900 16 16 sen_read/2100 4 27 1/2300 24 22",
+        "Sun": "610 1 8 sen_wigglesit/900 13 19 0/1100 12 21 sen_read/1300 Custom_ESOrchard 35 4 sen_read/1500 12 14 2 sen_read/1900 Custom_EastScarpe 54 40 sen_wigglesit/2100 39 76 0/2300 5 94 sen_wigglesit/2430 24 62"
+        }
+    }
+

@@ -1,0 +1,68 @@
+{
+    "Changes": [
+    {
+    "LogName": "Egg Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/spring13",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.Egg}}"
+    }
+},
+{
+    "LogName": "Flower Dance",
+    "Action": "EditData",
+    "Target": "data/festivals/spring24",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.FlowerDance}}"
+    }
+},
+{
+    "LogName": "Luau",
+    "Action": "EditData",
+    "Target": "data/festivals/summer11",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.Luau}}"
+    }
+},
+{
+    "LogName": "Moonlight Jelly",
+    "Action": "EditData",
+    "Target": "data/festivals/summer28",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.MoonlightJelly}}"
+    }
+},
+{
+    "LogName": "Fair",
+    "Action": "EditData",
+    "Target": "data/festivals/fall16",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.SDVFair}}"
+    }
+},
+{
+    "LogName": "Spirit's Eve",
+    "Action": "EditData",
+    "Target": "data/festivals/fall27",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.SpiritsEve}}"
+    }
+},
+{
+    "LogName": "Ice Festival",
+    "Action": "EditData",
+    "Target": "data/festivals/winter8",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.IceFestival}}"
+    }
+},
+{
+    "LogName": "Winter Star",
+    "Action": "EditData",
+    "Target": "data/festivals/winter25",
+    "Entries": {
+        "SenS": "{{i18n:Festivals.SenS.WinterStar}}"
+    }
+}
+]
+}

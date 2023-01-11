@@ -1,0 +1,127 @@
+{
+    "Format": "1.28.0",
+    "ConfigSchema": {
+        "Shadow Stat Changes": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "Description":"Allows for the dynamic changes of Shadow stats throughout the course of the story.",
+            "Section": "Gameplay"
+        },
+        "Pacifist Mode": {
+            "AllowValues": "true, false",
+            "Default": false,
+            "AllowBlank": false,
+            "Description":"Shadows will be invincible to player attacks. (Shadow Stat Changes must be set to true for this to take effect.)",
+            "Section": "Gameplay"
+        },
+        "Relationship Type": {
+            "AllowValues": "Roommate, Spouse",
+            "Default": "Roommate",
+            "AllowBlank": false,
+            "Description":"Determines if Sen will be a roommate or spouse candidate. Changing this after starting a relationship with Sen may cause him to behave strangely.",
+            "Section": "Gameplay"
+        },
+        "Have Shadow Kids": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "Description":"Determines if you have shadow children when you are married to Sen.",
+            "Section": "Graphics"
+        }
+    },
+    //Calculations
+    "DynamicTokens": [
+        {
+           "Name": "PartnershipType",
+           "Value": "Platonic",
+           "When":{
+            "Relationship Type": "Roommate"
+           }
+        },
+        {
+            "Name": "PartnershipType",
+            "Value": "Romantic",
+            "When":{
+            "Relationship Type": "Spouse"
+            }
+         },
+         {
+            "Name": "ScheduleRandomizer",
+            "Value": "{{Random:1++2|inputSeparator=++}}"
+        }
+     ],
+
+     //Files
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
+            "FromFile": "assets/blank.json"
+        },
+		{
+			"Action": "Include",
+			"FromFile": "assets/Schedules/FestivalLocations.json, assets/Dialogue/Core/FestivalDialogue.json, assets/Images/SpriteData.json, assets/Maps/MapData.json, assets/Core/NPCData.json, assets/Dialogue/Extras/GiftDialogue.json, assets/Dialogue/Extras/KrobusDialogueAdditions.json, assets/Events/Event0.json, assets/Events/Event2.json, assets/Events/Event4.json, assets/Events/Event6.json, assets/Events/Event8.json, assets/Events/event10.json, assets/Core/QuestData.json, assets/dialogue/Core/CoreDialogue.json, assets/Dialogue/Core/RelationshipDialogue.json"
+		},
+        //loads based on events or flags
+        {
+			"Action": "Include",
+			"FromFile": "assets/schedules/schedule.json",
+            "When":{
+                "HasSeenEvent: |contains=107701000": true 
+            }
+		},
+        //loads based on config
+        {
+			"Action": "Include",
+			"FromFile": "assets/core/MonsterData.json",
+            "When":{
+                "Shadow Stat Changes":true 
+        }
+		},
+        {           
+            "Action": "Load",
+            "Target": "Characters/Baby, Characters/Baby_dark",
+            "FromFile": "assets/images/{{TargetPathOnly}}/TheBaby.png",
+            "When": 
+            {
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":true
+            }
+        },
+        {           
+            "Action": "Load",
+            "Target": "Characters/Toddler, Characters/Toddler_Dark",
+            "FromFile": "assets/images/{{TargetPathOnly}}/ToddlerLoki.png",
+            "When": 
+            {
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":true
+            }
+        },
+        {           
+            "Action": "Load",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_Dark",
+            "FromFile": "assets/images/{{TargetPathOnly}}/ToddlerFreya.png",
+            "When": 
+            {
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":true
+            }
+        },
+        //loads based on mod compat
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "SenS": {
+                    "MarkerCropOffset": 5
+                },
+                "When": { 
+                    "HasMod: |contains=Bouhm.NPCMapLocations": true 
+                }
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,10 @@
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\bin\Debug\net5.0\Lurking In The Dark.deps.json
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\bin\Debug\net5.0\Lurking In The Dark.dll
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\bin\Debug\net5.0\Lurking In The Dark.pdb
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.csproj.AssemblyReference.cache
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.AssemblyInfoInputs.cache
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.AssemblyInfo.cs
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.csproj.CoreCompileInputs.cache
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.dll
+C:\Users\alexi\Desktop\litd dll\Lurking In The Dark\Lurking In The Dark\obj\Debug\net5.0\Lurking In The Dark.pdb

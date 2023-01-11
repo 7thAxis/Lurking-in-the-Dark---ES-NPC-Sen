@@ -1,0 +1,365 @@
+{
+	"Changes": [
+	{
+		"LogName": "Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/SenS",
+		"Entries": 	
+	{ 		
+                "danceRejection": "{{i18n:Core.SenS.DanceRejection}}",
+                "divorced": "{{i18n:Core.SenS.Divorced}}",
+                "breakUp": "{{i18n:Core.SenS.BreakUp}}",
+            
+				//0 Heart
+                "spring_Mon": "{{i18n:Core.SenS.Spring.Monday.0h}}",
+                "spring_Tue": "{{i18n:Core.SenS.Spring.Tuesday.0h}}",
+                "spring_Wed": "{{i18n:Core.SenS.Spring.Wednesday.0h}}",
+                "spring_Thu": "{{i18n:Core.SenS.Spring.Thursday.0h}}",
+                "spring_Fri": "{{i18n:Core.SenS.Spring.Friday.0h}}",
+                "spring_Sat": "{{i18n:Core.SenS.Spring.Saturday.0h}}",
+                "spring_Sun": "{{i18n:Core.SenS.Spring.Sunday.0h}}",
+
+                "summer_Mon": "{{i18n:Core.SenS.Summer.Monday.0h}}",
+                "summer_Tue": "{{i18n:Core.SenS.Summer.Tuesday.0h}}",
+                "summer_Wed": "{{i18n:Core.SenS.Summer.Wednesday.0h}}",
+                "summer_Thu": "{{i18n:Core.SenS.Summer.Thursday.0h}}",
+                "summer_Fri": "{{i18n:Core.SenS.Summer.Friday.0h}}",
+                "summer_Sat": "{{i18n:Core.SenS.Summer.Saturday.0h}}",
+                "summer_Sun": "{{i18n:Core.SenS.Summer.Sunday.0h}}",                
+
+                "fall_Mon": "{{i18n:Core.SenS.Fall.Monday.0h}}",
+                "fall_Tue": "{{i18n:Core.SenS.Fall.Tuesday.0h}}",
+                "fall_Wed": "{{i18n:Core.SenS.Fall.Wednesday.0h}}",
+                "fall_Thu": "{{i18n:Core.SenS.Fall.Thursday.0h.Opening}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Author.{{Random:1++2++3++4++5++6++7++8|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Thursday.0h.Closing.{{Random:1++2++3|inputSeparator=++}}}}",
+                "fall_Fri": "{{i18n:Core.SenS.Fall.Friday.0h.Opening}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.CrocColor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Friday.0h.Closing}}",
+                "fall_Sat": "{{i18n:Core.SenS.Fall.Saturday.0h}}",
+                "Fall_Sun": "{{i18n:Core.SenS.Fall.Sunday.0h.Opening}}{{i18n:Core.SenS.AnimalStatement.{{Random:1++2++3|inputSeparator=++}}}}",
+
+                "winter_Mon": "{{i18n:Core.SenS.Winter.Monday.0h}}",
+                "winter_Tue": "{{i18n:Core.SenS.Winter.Tuesday.0h.Opening}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Tuesday.0h.Closing}}",
+                "winter_Wed": "{{i18n:Core.SenS.Winter.Wednesday.0h}}",
+                "winter_Thu": "{{i18n:Core.SenS.Winter.Thursday.0h}}",
+                "winter_Fri": "{{i18n:Core.SenS.Winter.Friday.0h.Opening}}{{i18n:Core.SenS.Winter.Friday.0h.SeasonStatement.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "winter_Sat": "{{i18n:Core.SenS.Winter.Saturday.0h.Opening}}{{i18n:Core.SenS.Image.{{Random:1++2++3++4++5++6++7++8++9|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Saturday.0h.Closing}}",
+                "winter_Sun": "{{i18n:Core.SenS.Winter.Sunday.0h}}",
+
+                //2 Heart
+                "spring_Mon2": "{{i18n:Core.SenS.Spring.Monday.2h}}",
+                "spring_Tue2": "{{i18n:Core.SenS.Spring.Tuesday.2h}}",
+                "spring_Wed2": "{{i18n:Core.SenS.Spring.Wednesday.2h.Opening}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj2.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Author.{{Random:1++2++3++4++5++6++7++8|inputSeparator=++}}}}{{i18n:Core.SenS.Spring.Wednesday.2h.Closing.{{Random:1++2++3|inputSeparator=++}}}}",
+                "spring_Thu2": "{{i18n:Core.SenS.Spring.Thursday.2h}}",
+                "spring_Fri2": "{{i18n:Core.SenS.Spring.Friday.2h}}",
+                "spring_Sat2": "{{i18n:Core.SenS.Spring.Saturday.2h}}",
+                "spring_Sun2": "{{i18n:Core.SenS.Spring.Sunday.2h}}",
+                
+                "summer_Mon2": "{{i18n:Core.SenS.Summer.Monday.2h}}",
+                "summer_Tue2": "{{i18n:Core.SenS.Summer.Tuesday.2h.Opening}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.CrocColor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Tuesday.2h.Closing}}",
+                "summer_Wed2": "{{i18n:Core.SenS.Summer.Wednesday.2h}}",
+                "summer_Thu2": "{{i18n:Core.SenS.Summer.Thursday.2h}}",
+                "summer_Fri2": "{{i18n:Core.SenS.Summer.Friday.2h.Opening}}{{i18n:Core.SenS.Animal.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Friday.2h.Closing}}",
+                "summer_Sat2": "{{i18n:Core.SenS.Summer.Saturday.2h}}",
+                "summer_Sun2": "{{i18n:Core.SenS.Summer.Sunday.2h}}",
+                
+                "fall_Mon2": "{{i18n:Core.SenS.Fall.Monday.2h}}",
+                "fall_Tue2": "{{i18n:Core.SenS.Fall.Tuesday.2h}}",
+                "fall_Wed2": "{{i18n:Core.SenS.Fall.Wednesday.2h}}",
+                "fall_Thu2": "{{i18n:Core.SenS.Fall.Thursday.2h}}",
+                "fall_Fri2": "{{i18n:Core.SenS.Fall.Friday.2h.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Friday.2h.Closing}}",
+                "fall_Sat2": "{{i18n:Core.SenS.Fall.Saturday.2h}}",
+                "fall_Sun2": "{{i18n:Core.SenS.Fall.Sunday.2h}}",
+                
+                "winter_Mon2": "{{i18n:Core.SenS.Winter.Monday.2h.Opening}}{{i18n:Core.SenS.Image.{{Random:1++2++3++4++5++6++7++8++9|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Monday.2h.Closing}}",
+                "winter_Tue2": "{{i18n:Core.SenS.Winter.Tuesday.2h.Opening}}{{i18n:Core.SenS.Winter.Tuesday.2h.Statement.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "winter_Wed2": "{{i18n:Core.SenS.Winter.Wednesday.2h}}",
+                "winter_Thu2": "{{i18n:Core.SenS.Winter.Thursday.2h}}",
+                "winter_Fri2": "{{i18n:Core.SenS.Winter.Friday.2h}}",
+                "winter_Sat2": "{{i18n:Core.SenS.Winter.Saturday.2h.Opening}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Saturday.2h.Closing}}",
+                "winter_Sun2": "{{i18n:Core.SenS.Winter.Sunday.2h.Opening}}{{i18n:Core.SenS.Book.AP.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj3.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Sunday.2h.Closing.{{Random:1++2++3|inputSeparator=++}}}}",
+                
+                //4 Heart
+                "spring_Mon4": "{{i18n:Core.SenS.Spring.Monday.4h.Opening}}",
+                    "SenFriend": "{{i18n:Core.SenS.SenFriend}}",
+                    "SenAcquaintance": "{{i18n:Core.SenS.SenAcquaintance}}",
+                    "SenNotFriend": "{{i18n:Core.SenS.SenNotFriend}}",
+                    "SenFriendshipFollowup": "{{i18n:Core.SenS.SenFriendshipFollowup}}{{i18n:Core.SenS.SenFriendshipFollowup.Statement.{{Random:1++2++3|inputSeparator=++}}}}",
+                "spring_Tue4": "{{i18n:Core.SenS.Spring.Tuesday.4h.Opening}}{{i18n:Core.SenS.GameResult.{{Random:1++2|inputSeparator=++}}}}{{i18n:Core.SenS.BlueCard}}{{i18n:Core.SenS.GameResult1.{{Random:1++2|inputSeparator=++}}}}'",
+                "spring_Wed4": "{{i18n:Core.SenS.Spring.Wednesday.4h}}",
+                "spring_Thu4": "{{i18n:Core.SenS.Spring.Thursday.4h}}",
+                "spring_Fri4": "{{i18n:Core.SenS.Spring.Friday.4h}}",
+                "spring_Sat4": "{{i18n:Core.SenS.Spring.Saturday.4h}}",
+                "spring_Sun4": "{{i18n:Core.SenS.Spring.Sunday.4h}}",
+                
+                "summer_Mon4": "{{i18n:Core.SenS.Summer.Monday.4h}}",
+                "summer_Tue4": "{{i18n:Core.SenS.Summer.Tuesday.4h.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.FoodResponse.1}}{{i18n:Core.SenS.FoodStyle.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.FoodResponse.2}}",
+                "summer_Wed4": "{{i18n:Core.SenS.Summer.Wednesday.4h}}",
+                "summer_Thu4": "{{i18n:Core.SenS.Summer.Thursday.4h}}",
+                "summer_Fri4": "{{i18n:Core.SenS.Summer.Friday.4h}}",
+                "summer_Sat4": "{{i18n:Core.SenS.Summer.Saturday.4h.Opening}}{{i18n:Core.SenS.QuirkyAction.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Saturday.4h.Closing}}",
+                "summer_Sun4": "{{i18n:Core.SenS.Summer.Sunday.4h}}",
+                
+                "fall_Mon4": "{{i18n:Core.SenS.Fall.Monday.4h}}",
+                "fall_Tue4": "{{i18n:Core.SenS.Fall.Tuesday.4h}}",
+                "fall_Wed4": "{{i18n:Core.SenS.Fall.Wednesday.4h}}",
+                "fall_Thu4": "{{i18n:Core.SenS.Fall.Thursday.4h}}",
+                "fall_Fri4": "{{i18n:Core.SenS.Fall.Friday.4h}}",
+                "fall_Sat4": "{{i18n:Core.SenS.Fall.Saturday.4h}}",
+                "fall_Sun4": "{{i18n:Core.SenS.Fall.Sunday.4h.Opening}}{{i18n:Core.SenS.GameResult2.{{Random:1++2|inputSeparator=++}}}}{{i18n:Core.SenS.OrangeCard}}{{i18n:Core.SenS.GameResult3.{{Random:1++2|inputSeparator=++}}}}'",
+                
+                "winter_Mon4": "{{i18n:Core.SenS.Winter.Monday.4h}}",
+                "winter_Tue4":"{{i18n:Core.SenS.Winter.Tuesday.4h.Opening}}{{i18n:Core.SenS.Book.Type.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10++11++12++13++14|inputSeparator=++}}}}{{i18n:Core.SenS.SuggestionStatement.1}}{{i18n:Core.SenS.Book.Obj4.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj2.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.SuggestionStatement.2}}{{i18n:Core.SenS.Book.People.{{Random:1++2++3++4++5++6++7++8++9|inputSeparator=++}}}}{{i18n:Core.SenS.andthe}}{{i18n:Core.SenS.Book.Obj5.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.SuggestionStatement.3}}",
+                "winter_Wed4": "{{i18n:Core.SenS.Winter.Wednesday.4h}}",
+                "winter_Thu4" : "{{i18n:Core.SenS.Winter.Thursday.4h.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Thursday.4h.Closing}}",
+                "winter_Fri4": "{{i18n:Core.SenS.Winter.Friday.4h.Opening}}{{i18n:Core.SenS.CrocusSymbolism.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Friday.4h.Closing}}",
+                "winter_Sat4": "{{i18n:Core.SenS.Winter.Saturday.4h}}",
+                "winter_Sun4": "{{i18n:Core.SenS.Winter.Sunday.4h.Opening}}{{i18n:Core.SenS.Spikes.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Sunday.4h.Closing}}",
+
+                //6 Heart
+                "spring_Mon6": "{{i18n:Core.SenS.Spring.Monday.6h}}",
+                "spring_Tue6": "{{i18n:Core.SenS.Spring.Tuesday.6h.Opening}}",
+                    "LanguageYes": "{{i18n:Core.SenS.LanguageYes}}",
+                    "LanguageAbsolutely":"{{i18n:Core.SenS.LanguageAbsolutely}}",
+                    "LanguageNo": "{{i18n:Core.SenS.LanguageNo}}",
+                    "LanguageFollowup": "{{i18n:Core.SenS.LanguageFollowup}}",
+                "spring_Wed6": "{{i18n:Core.SenS.Spring.Wednesday.6h}}",
+                "spring_Thu6": "{{i18n:Core.SenS.Spring.Thursday.6h.Opening}}{{i18n:Core.SenS.GameResult4.{{Random:1++2|inputSeparator=++}}}}{{i18n:Core.SenS.PurpleCard}}{{i18n:Core.SenS.GameResult5.{{Random:1++2|inputSeparator=++}}}}'",
+                "spring_Fri6": "{{i18n:Core.SenS.Spring.Friday.6h}}",
+                "spring_Sat6": "{{i18n:Core.SenS.Spring.Saturday.6h.Opening}}{{i18n:Core.SenS.FoundObjects.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Spring.Saturday.6h.Closing}}",
+                "spring_Sun6": "{{i18n:Core.SenS.Spring.Sunday.6h}}",
+                
+                "summer_Mon6": "{{i18n:Core.SenS.Summer.Monday.6h}}",
+                "summer_Tue6": "{{i18n:Core.SenS.Summer.Tuesday.6h}}",
+                "summer_Wed6": "{{i18n:Core.SenS.Summer.Wednesday.6h.Opening}}{{i18n:Core.SenS.Spikes.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Wednesday.6h.Closing}}",
+                "summer_Thu6": "{{i18n:Core.SenS.Summer.Thursday.6h}}",
+                "summer_Fri6": "{{i18n:Core.SenS.Summer.Friday.6h}}",
+                "summer_Sat6": "{{i18n:Core.SenS.Summer.Saturday.6h}}",
+                "summer_Sun6": "{{i18n:Core.SenS.Summer.Sunday.6h}}",
+                
+                "fall_Mon6": "{{i18n:Core.SenS.Fall.Monday.6h}}",
+                "fall_Tue6": "{{i18n:Core.SenS.Fall.Tuesday.6h}}",
+                "fall_Wed6": "{{i18n:Core.SenS.Fall.Wednesday.6h.Opening}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10++11++12++13++14|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Author2.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Wednesday.6h.Closing}}",
+                "fall_Thu6": "{{i18n:Core.SenS.Fall.Thursday.6h}}",
+                "fall_Fri6": "{{i18n:Core.SenS.Fall.Friday.6h}}",
+                "fall_Sat6": "{{i18n:Core.SenS.Fall.Saturday.6h}}",
+                "fall_Sun6": "{{i18n:Core.SenS.Fall.Sunday.6h}}",
+                
+                "winter_Mon6": "{{i18n:Core.SenS.Winter.Monday.6h.Opening}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.CrocColor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Monday.6h.Closing}}",
+                "winter_Tue6": "{{i18n:Core.SenS.Winter.Tuesday.6h.Opening}}{{i18n:Core.SenS.CrocusSymbolism.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Tuesday.6h.Closing}}",
+                "winter_Wed6": "{{i18n:Core.SenS.Winter.Wednesday.6h}}",
+                "winter_Thu6": "{{i18n:Core.SenS.Winter.Thursday.6h}}",
+                "winter_Fri6": "{{i18n:Core.SenS.Winter.Friday.6h}}",
+                "winter_Sat6": "{{i18n:Core.SenS.Winter.Saturday.6h}}",
+                "winter_Sun6": "{{i18n:Core.SenS.Winter.Sunday.6h}}",
+
+                //8 Heart
+                "spring_Mon8": "{{i18n:Core.SenS.Spring.Monday.8h}}",
+                "spring_Tue8": "{{i18n:Core.SenS.Spring.Tuesday.8h}}",
+                "spring_Wed8": "{{i18n:Core.SenS.Spring.Wednesday.8h.Opening}}{{i18n:Core.SenS.GameResult6.{{Random:1++2|inputSeparator=++}}}}{{i18n:Core.SenS.VioletCard}}{{i18n:Core.SenS.GameResult7.{{Random:1++2|inputSeparator=++}}}}'",
+                "spring_Thu8": "{{i18n:Core.SenS.Spring.Thursday.8h}}",
+                "spring_Fri8": "{{i18n:Core.SenS.Spring.Friday.8h}}",
+                "spring_Sat8": "{{i18n:Core.SenS.Spring.Saturday.8h}}",
+                "spring_Sun8": "{{i18n:Core.SenS.Spring.Sunday.8h}}",
+
+                "summer_Mon8": "{{i18n:Core.SenS.Summer.Monday.8h}}",
+                "summer_Tue8": "{{i18n:Core.SenS.Summer.Tuesday.8h}}",
+                "summer_Wed8": "{{i18n:Core.SenS.Summer.Wednesday.8h}}",
+                "summer_Thu8": "{{i18n:Core.SenS.Summer.Thursday.8h}}",
+                "summer_Fri8": "{{i18n:Core.SenS.Summer.Friday.8h.Opening}}{{i18n:Core.SenS.FoodStyle.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Friday.8h.Closing}}",
+                "summer_Sat8": "{{i18n:Core.SenS.Summer.Saturday.8h}}",
+                "summer_Sun8": "{{i18n:Core.SenS.Summer.Sunday.8h.Opening}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10++11++12++13++14|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj2.1}}{{i18n:Core.SenS.BookRemark.{{Random:1++2++3|inputSeparator=++}}}}",
+                
+                "fall_Mon8": "{{i18n:Core.SenS.Fall.Monday.8h}}",
+                "fall_Tue8": "{{i18n:Core.SenS.Fall.Tuesday.8h}}",
+                "fall_Wed8": "{{i18n:Core.SenS.Fall.Wednesday.8h}}",
+                "fall_Thu8": "{{i18n:Core.SenS.Fall.Thursday.8h}}",
+                "fall_Fri8": "{{i18n:Core.SenS.Fall.Friday.8h.Opening}}{{i18n:Core.SenS.FoundObjects2.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Friday.8h.Closing}}",
+                "fall_Sat8": "{{i18n:Core.SenS.Fall.Saturday.8h}}",
+                "fall_Sun8": "{{i18n:Core.SenS.Fall.Sunday.8h}}",
+                
+                "winter_Mon8": "{{i18n:Core.SenS.Winter.Monday.8h.Opening}}{{i18n:Core.SenS.CrocColor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Monday.8h.Closing}}",
+                "winter_Tue8": "{{i18n:Core.SenS.Winter.Tuesday.8h.Opening}}{{i18n:Core.SenS.CrocusSymbolism.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Tuesday.8h.Closing}}",
+                "winter_Wed8": "{{i18n:Core.SenS.Winter.Wednesday.8h}}",
+                "winter_Thu8": "{{i18n:Core.SenS.Winter.Thursday.8h}}",
+                "winter_Fri8": "{{i18n:Core.SenS.Winter.Friday.8h.Opening}}{{i18n:Core.SenS.GameResult8.{{Random:1++2|inputSeparator=++}}}}{{i18n:Core.SenS.BlackCard}}{{i18n:Core.SenS.GameResult9.{{Random:1++2|inputSeparator=++}}}}'",
+                "winter_Sat8": "{{i18n:Core.SenS.Winter.Saturday.8h}}",
+                "winter_Sun8": "{{i18n:Core.SenS.Winter.Sunday.8h.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.FoodResponse.3}}{{i18n:Core.SenS.FoodStyle.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.FoodResponse.4}}",
+
+                //10 Heart
+                "spring_Mon10": "{{i18n:Core.SenS.Spring.Monday.10h.Opening}}",               
+                    "SenFavoriteThing": "{{i18n:Core.SenS.SenFavoriteThing}}",
+                    "SenNoFavoriteThing":"{{i18n:Core.SenS.SenNoFavoriteThing}}",
+                    "SenFavoriteFollowup": "{{i18n:Core.SenS.SenFavoriteFollowup.1}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.SenFavoriteFollowup.2}}{{i18n:Core.SenS.CrocItem.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.SenFavoriteFollowup.3}}",
+                "spring_Tue10": "{{i18n:Core.SenS.Spring.Tuesday.0h}}",
+                "spring_Wed10": "{{i18n:Core.SenS.Spring.Wednesday.0h}}",
+                "spring_Thu10": "{{i18n:Core.SenS.Spring.Thursday.10h.Opening}}{{i18n:Core.SenS.Expression.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Spring.Thursday.10h.Closing}}",
+                "spring_Fri10": "{{i18n:Core.SenS.Spring.Friday.0h}}",
+                "spring_Sat10": "{{i18n:Core.SenS.Spring.Saturday.0h}}",
+                "spring_Sun10": "{{i18n:Core.SenS.Spring.Sunday.10h.Opening}}{{i18n:Core.SenS.Book.Type.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10++11++12++13++14|inputSeparator=++}}}}{{i18n:Core.SenS.SuggestionStatement.4}}{{i18n:Core.SenS.Book.Obj4.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj2.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.SuggestionStatement.5}}{{i18n:Core.SenS.Book.People.{{Random:1++2++3++4++5++6++7++8++9|inputSeparator=++}}}}{{i18n:Core.SenS.andthe}}{{i18n:Core.SenS.Book.Obj5.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.SuggestionStatement.6}}",
+
+                "summer_Mon10": "{{i18n:Core.SenS.Summer.Monday.10h.Opening}}",               
+                    "SenNoKill": "{{i18n:Core.SenS.SenNoKill}}",
+                    "SenSelfDefense":"{{i18n:Core.SenS.SenSelfDefense}}",
+                    "SenAccident":"{{i18n:Core.SenS.SenAccident}}",
+                    "SenSilence": "{{i18n:Core.SenS.SenSilence}}",
+                    "SenKillFollowup": "{{i18n:Core.SenS.SenKillFollowup}}",
+                "summer_Tue10": "{{i18n:Core.SenS.Summer.Tuesday.10h}}",
+                "summer_Wed10": "{{i18n:Core.SenS.Summer.Wednesday.10h}}",
+                "summer_Thu10": "{{i18n:Core.SenS.Summer.Thursday.10h}}",
+                "summer_Fri10": "{{i18n:Core.SenS.Summer.Friday.10h}}",
+                "summer_Sat10": "{{i18n:Core.SenS.Summer.Saturday.10h.Opening}}{{i18n:Core.SenS.People.{{Random:1++2++3++4++5++6++7++8++9++10++11++12|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Saturday.10h.Closing}}",
+                "summer_Sun10": "{{i18n:Core.SenS.Summer.Sunday.10h.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Summer.Sunday.10h.Closing}}",
+                
+                "fall_Mon10": "{{i18n:Core.SenS.Fall.Monday.10h.Opening}}{{i18n:Core.SenS.FallCrop.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Monday.10h.Closing}}",
+                "fall_Tue10": "{{i18n:Core.SenS.Fall.Tuesday.10h}}",
+                "fall_Wed10": "{{i18n:Core.SenS.Fall.Wednesday.10h}}",
+                "fall_Thu10": "{{i18n:Core.SenS.Fall.Thursday.10h}}",
+                "fall_Fri10": "{{i18n:Core.SenS.Fall.Friday.10h.Opening}}{{i18n:Core.SenS.Spikes.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Fall.Friday.10h.Closing}}",
+                "fall_Sat10": "{{i18n:Core.SenS.Fall.Saturday.10h}}",
+                "fall_Sun10": "{{i18n:Core.SenS.Fall.Sunday.10h}}",
+                
+                "winter_Mon10": "{{i18n:Core.SenS.Winter.Monday.10h}}",
+                "winter_Tue10": "{{i18n:Core.SenS.Winter.Tuesday.10h}}",
+                "winter_Wed10": "{{i18n:Core.SenS.Winter.Wednesday.10h.Opening}}{{i18n:Core.SenS.CrocusSymbolism.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Winter.Wednesday.10h.Closing}}",
+                "winter_Thu10": "{{i18n:Core.SenS.Winter.Thursday.10h}}",
+                "winter_Fri10": "{{i18n:Core.SenS.Winter.Friday.10h}}",
+                "winter_Sat10": "{{i18n:Core.SenS.Winter.Saturday.10h}}",
+                "winter_Sun10": "{{i18n:Core.SenS.Winter.Sunday.10h}}",
+
+                //Randomized Hellscape
+
+				// SPECIFIC DAY SPRING
+				"spring_1": "{{i18n:Core.SenS.Spring.d1}}",
+				"spring_4": "{{i18n:Core.SenS.Spring.d4}}",
+				"spring_7": "{{i18n:Core.SenS.Spring.d7}}",
+				"spring_10": "{{i18n:Core.SenS.Spring.d10}}",
+				"spring_12": "{{i18n:Core.SenS.Spring.d12}}", // Day before the Egg Festival
+				"spring_14": "{{i18n:Core.SenS.Spring.d14}}",
+				"spring_20": "{{i18n:Core.SenS.Spring.d20}}",
+				"spring_23": "{{i18n:Core.SenS.Spring.d23}}", // Day before the Flower Dance
+				"spring_26": "{{i18n:Core.SenS.Spring.d26}}",
+				
+				// SPECIFIC DAY SUMMER
+				"summer_1": "{{i18n:Core.SenS.Summer.d1}}",
+				"summer_4": "{{i18n:Core.SenS.Summer.d4}}",
+				"summer_8": "{{i18n:Core.SenS.Summer.d8}}",
+				"summer_10": "{{i18n:Core.SenS.Summer.d10}}", // Day before the Luau
+				"summer_13": "{{i18n:Core.SenS.Summer.d13}}",
+				"summer_17": "{{i18n:Core.SenS.Summer.d17}}",
+				"summer_19": "{{i18n:Core.SenS.Summer.d19.Opening}}{{i18n:Core.SenS.Summer.d19.Statement.{{Random:1++2++3|inputSeparator=++}}}}",
+				"summer_27": "{{i18n:Core.SenS.Summer.d27}}", // Day before the Midnight Jellies
+				
+				// SPECIFIC DAY FALL
+				"fall_1": "{{i18n:Core.SenS.Fall.d1}}",
+				"fall_2": "{{i18n:Core.SenS.Fall.d2}}",
+				"fall_5": "{{i18n:Core.SenS.Fall.d5}}",
+				"fall_13": "{{i18n:Core.SenS.Fall.d13}}",
+				"fall_15": "{{i18n:Core.SenS.Fall.d15}}", // Day before the Stardew Fair
+				"fall_18": "{{i18n:Core.SenS.Fall.d18}}",
+				"fall_21": "{{i18n:Core.SenS.Fall.d21}}",
+				"fall_24": "{{i18n:Core.SenS.Fall.d24}}",
+				"fall_26": "{{i18n:Core.SenS.Fall.d26}}", // Day before Spirit's Eve
+				
+				// SPECIFIC DAY WINTER
+				"winter_1": "{{i18n:Core.SenS.Winter.d1}}",
+				"winter_3": "{{i18n:Core.SenS.Winter.d3}}",
+				"winter_7": "{{i18n:Core.SenS.Winter.d7}}", // Day before the Ice Festival
+				"winter_10": "{{i18n:Core.SenS.Winter.d10}}",
+				"winter_14": "{{i18n:Core.SenS.Winter.d14}}",
+				"winter_17": "{{i18n:Core.SenS.Winter.d17}}",
+				"winter_20": "{{i18n:Core.SenS.Winter.d20.Opening}}{{i18n:Core.SenS.FoodStyle.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}",
+				"winter_23": "{{i18n:Core.SenS.Winter.d23}}",
+				"winter_24": "{{i18n:Core.SenS.Winter.d24}}", // Day before Winter Star
+				"winter_26": "{{i18n:Core.SenS.Winter.d26}}",
+
+                //Conversation Topics
+                "LitD_CT_SenMet": "{{i18n:Core.SenS.SenMet}}",
+                "LitD_CT_DreamReveal": "{{i18n:Core.SenS.DreamReveal}}",
+                "LitD_CT_ShadowPlay": "{{i18n:Core.SenS.ShadowPlay}}",
+                "LitD_CT_GardenWaitTime": "{{i18n:Core.SenS.GardenWaitTime}}",
+                "LitD_CT_GardenCompleted": "{{i18n:Core.SenS.GardenCompleted}}",
+                "LitD_CT_FamilyFlashback": "{{i18n:Core.SenS.FamilyFlashback}}",
+                "LitD_CT_MineFlashback": "{{i18n:Core.SenS.MineFlashback}}",
+                "LitD_CT_TheConfrontation": "{{i18n:Core.SenS.TheConfrontation}}",
+                "LitD_CT_SkrellEpilogue": "{{i18n:Core.SenS.SkrellEpilogue}}",
+                "joja_Begin": "{{i18n:Core.SenS.JojaBegin}}",
+            	"cc_Begin": "{{i18n:Core.SenS.ccBegin}}",
+            	"cc_Bus": "{{i18n:Core.SenS.ccBus}}",
+                "cc_Bridge":"{{i18n:Core.SenS.ccBridge}}",
+                "cc_Boulder": "{{i18n:Core.SenS.ccBoulder}}",
+                "cc_Greenhouse": "{{i18n:Core.SenS.ccGreenhouse}}",
+            	"cc_Minecart": "{{i18n:Core.SenS.ccMinecart}}",
+            	"cc_Complete": "{{i18n:Core.SenS.ccComplete}}",
+            	"movieTheater": "{{i18n:Core.SenS.MovieTheater}}",
+                "JasperGone2": "{{i18n:Core.SenS.JasperGone2}}",
+                "JasperHomeA": "{{i18n:Core.SenS.JasperHomeA}}",
+                "keahi_prank": "{{i18n:Core.SenS.KeahiStink}}",
+                "pumpkin_spice_madness": "{{i18n:Core.SenS.PumpkinSpice}}",
+                "LavrilUnlocked": "{{i18n:Core.SenS.LavrilUnlocked}}",
+                "LucikielArrives": "{{i18n:Core.SenS.LucikielArrives}}",
+                "ReputationIncreased":"{{i18n:Core.SenS.LucikielRepIncrease}}",
+                "JulietGremlin": "{{i18n:Core.SenS.JulietGremlin}}",
+                "SterlingTrash": "{{i18n:Core.SenS.SterlingTrash}}",
+
+                //CFD
+                //Movies
+                "MovieInvite_CantInvite_SenS": "{{i18n:Core.SenS.MovieInviteFail}}",
+
+                //Trash
+                "ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:Core.SenS.DumpsterComment}}",
+
+                //Slingshot
+                "NPC.cs.4293": "{{i18n:Core.SenS.Slingshot.1}}",
+				"NPC.cs.4294": "{{i18n:Core.SenS.Slingshot.2}}",
+
+                 //Bouquet rejection
+                "NPC.cs.3956": "{{i18n:Core.SenS.BouquetRejection.1}}",
+                "NPC.cs.3957": "{{i18n:Core.SenS.BouquetRejection.2}}",
+
+                //Accept Bouquet
+                "NPC.cs.3962": "{{i18n:Core.SenS.BouquetAccept.1}}", 
+                "NPC.cs.3963": "{{i18n:Core.SenS.BouquetAccept.2}}",
+
+                //Pendant rejection engaged or married
+                "NPC.cs.3965": "{{i18n:Core.SenS.PendantRejection.1}}",
+                "NPC.cs.3966": "{{i18n:Core.SenS.PendantRejection.2}}",        
+                
+                //Pendant rejection already married
+                "NPC.cs.3967": "{{i18n:Core.SenS.PendantRejection.1}}", 
+                "NPC.cs.3968": "{{i18n:Core.SenS.PendantRejection.2}}",
+
+                //Pendant Rejection
+                "NPC.cs.3970": "{{i18n:Core.SenS.PendantRejection.1}}", 
+                "NPC.cs.3971": "{{i18n:Core.SenS.PendantRejection.2}}", 
+                "NPC.cs.3972": "{{i18n:Core.SenS.PendantRejection.1}}", 
+                "NPC.cs.3973": "{{i18n:Core.SenS.PendantRejection.2}}", 
+
+                //Pendant rejection pester 
+                "NPC.cs.3974": "{{i18n:Core.SenS.PendantPester.1}}", 
+                "NPC.cs.3975": "{{i18n:Core.SenS.PendantPester.2}}", 
+
+                //engagement acceptance
+                "NPC.cs.3980": "{{i18n:Core.SenS.EngagementAccept}}", 
+
+                //Birthday
+                "NPC.cs.4275": "{{i18n:Core.SenS.BirthdayGift.Positive.1}}", //pos
+                "NPC.cs.4277": "{{i18n:Core.SenS.BirthdayGift.Positive.2}}", //pos
+                "NPC.cs.4279": "{{i18n:Core.SenS.BirthdayGift.Negative}}", //neg
+                "NPC.cs.4281": "{{i18n:Core.SenS.BirthdayGift.Neutral}}" //neutral
+			}		
+		},
+        {
+            "LogName": "Dialogue - JOJA ROUTE",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": 	{ 
+                            
+                //Conversation Topics, remove reference to Junimos
+                "cc_Boulder":"{{i18n:Core.SenS.ccBoulder.Joja}}",
+                "cc_Greenhouse": "{{i18n:Core.SenS.ccGreenhouse.Joja}}",
+                "spring_18": "{{i18n:Core.SenS.Spring.d18}}"
+            },
+            "When": {
+                "HasFlag: |contains=jojaMember": true
+             }
+            }
+	]
+}						

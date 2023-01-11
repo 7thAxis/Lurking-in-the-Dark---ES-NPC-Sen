@@ -1,0 +1,152 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13", //egg festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 37 96 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "SenS 37 96 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24", //flower dance
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 47 38 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "SenS 21 33 0",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11", //luau
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 53 21 2",
+                    "Delimiter": "/"
+                  },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "SenS 41 22 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28", //moonlight jelly
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 46 24 2",
+                    "Delimiter": "/"
+                  }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16", //fair
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 56 52 2",
+                    "Delimiter": "/"
+                    }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 33 15 2",
+                    "Delimiter": "/"
+                 }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8", //ice festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 57 19 2",
+                    "Delimiter": "/"
+                 }
+
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25", //feast of the winter star
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "SenS 47 71 2",
+                    "Delimiter": "/"
+                }
+            ]
+        }
+    ]
+}

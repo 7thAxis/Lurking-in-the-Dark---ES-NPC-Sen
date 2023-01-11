@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7d12w0CVn5RbvjTCUhO1rr51u3SWPZGF3Js0gmRNzQ+TGekEMN//HwnVPgSfDtVJJK36uWZiVZDDhUAXMntEfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexi\\Desktop\\litd dll\\Lurking In The Dark\\Lurking In The Dark\\Lurking In The Dark.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexi\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.0.2\\pathoschild.stardew.modbuildconfig.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

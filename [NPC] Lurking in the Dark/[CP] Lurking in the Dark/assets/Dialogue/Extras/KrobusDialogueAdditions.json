@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sen Dialogue for Krobus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "Reveal_SenS4": "{{i18n:Krobus.SenS.Reveal.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "LitD_CT_SenMet": "{{i18n:Krobus.SenS.SenMet}}",
+                "LitD_CT_DreamReveal": "{{i18n:Krobus.SenS.DreamReveal}}",
+                "LitD_CT_ShadowPlay": "{{i18n:Krobus.SenS.ShadowPlay}}",
+                "LitD_CT_GardenWaitTime": "{{i18n:Krobus.SenS.GardenWaitTime}}",
+                "LitD_CT_GardenCompleted": "{{i18n:Krobus.SenS.GardenCompleted}}",
+                "LitD_CT_FamilyFlashback": "{{i18n:Krobus.SenS.FamilyFlashback}}",
+                "LitD_CT_MineFlashback": "{{i18n:Krobus.SenS.MineFlashback}}",
+                "LitD_CT_TheConfrontation": "{{i18n:Krobus.SenS.TheConfrontation}}",
+                "LitD_CT_SkrellEpilogue": "{{i18n:Krobus.SenS.SkrellEpilogue}}"
+            },
+            "When": {
+                "DayOfWeek |contains=Friday": false
+            }  
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "TriedToMarryButKrobus": "{{i18n:Krobus.SenS.TriedToMarryButKrobus}}"
+            }
+        }
+    ]
+}

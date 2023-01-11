@@ -1,0 +1,30 @@
+{
+	"Name": "Lurking in the Dark",
+	"Author": "7thAxis",
+	"Version": "0.1.8",
+	"Description": "Adds a new shadow guy NPC for East Scarp.",
+	"UniqueID": "7thAxis.LitD.CP",
+	"UpdateKeys": ["Nexus:10770"],
+	"MinimumApiVersion": "2.11.0",
+	"MinimumGameVersion": "1.5",
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+	"Dependencies": [
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"MinimumVersion": "2.0.5-beta.2",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "PurrplingCat.CustomGiftDialogue",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "aedenthorn.CustomFixedDialogue",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "SMAPI.ErrorHandler",
+			"IsRequired": true
+		}
+	]
+}

@@ -1,0 +1,213 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "SenS_AfterWedding": "",
+                "SenS_Stardrop": "",
+                "SenS_Engaged": ""
+            }
+        },
+        //Children question + Adoption strings edit
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+                "NPC.cs.4448": "Did you finish the adoption papers?$h#$b#I hope no one comes asking who your partner is...$8", //Pregnancy adoption edit
+                "NPC.cs.4440": "Did you finish the adoption papers?$h#$b#I hope no one comes asking who your partner is...$8", //Adoption 1 
+                "NPC.cs.4441": "Did you finish the adoption papers?$h#$b#I hope no one comes asking who your partner is...$8" //Adoption 2
+            },
+            "When":{
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":false 
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "Entries": {
+                "HaveBabyQuestion": "Should we adopt a child, @?",
+                "BirthMessage_PlayerMother": "During the night, your new baby was dropped off."
+            },
+            "When":{
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+                "NPC.cs.4448": "I can't believe we're going to have a child soon, @!$u#$b#What are even the logistics of this happening?$l",
+                "NPC.cs.4440": "I can't believe we're going to have a child soon, @!$u#$b#What are even the logistics of this happening?$l", 
+                "NPC.cs.4441": "I can't believe we're going to have a child soon, @!$u#$b#What are even the logistics of this happening?$l" //Gonna have a baby 2
+            },
+            "When":{
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":true 
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "Entries": {
+                "HaveBabyQuestion": "Wouldn't it be amazing if we had a child, @...?",
+                "BirthMessage_PlayerMother": "During the night, your new baby arrived."
+            },
+            "When":{
+                "Relationship:SenS": "Married",
+                "Have Shadow Kids":true
+            }
+        },
+        {
+        
+            "LogName": "Roommate Route Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
+            "Entries": 																																	
+            {
+                //Location
+                "patio_SenS": "Oh, hello @!$h#$b#It's such a lovely day out, isn't it?$l#$e#Hm?#$b#Don't worry, I won't stay out in the sun for too long.$h",
+                "spouseRoom_SenS": "Ahh, there's nothing like a good book in the morning, is there?$l#$b#You're welcome to take a gander at anything on my shelf.$h#$e#I'm sure there must be something there that you'd be interested in!$h",
+                "funLeave_SenS": "",
+                "funReturn_SenS": "",
+
+                //SPECIAL DATES    
+                "spring_SenS": "Ahh.. the spring. There was nothing quite like it down in the mines.$h#$b#The fresh air, the lush grass you can just sink into...$l#$e#Oh, and the plethora of bugs!$7",
+                "spring_8": "I read that the wings of butterflies are very, very fragile.#$b#You should never, ever touch them because the oils on your hands can damage them.$s#$e#I don't know if my little claws would hurt a butterfly, but it's best leave them be.$h",
+                "spring_12": "Oh dear, the egg festival is tomorrow.#$b#I better go iron out my costume...$s#$e#Goodness, I can't stand wearing that thing!$8", //Day before Egg festival
+                "spring_13": "Are we going to go to the egg festival today?#$b#I'm avoiding putting on that Yoba forsaken costume until you say you're ready to go.$8", // Egg festival
+                "spring_20": "I really need to get some new sewing needles.#$b#The Flower Dance is just a couple days away and my costume is in dire need of repair!$u#$e#Wait, do we happen to have any around the house!$h",
+                "spring_23": "Tomorrow is the Flower Dance...#$b#Perhaps I will actually try to dance tomorrow?$8#$e#No, no. Not a chance!$u#$b#I have two left feet.$8", // Day Before Flower Dance
+                "spring_24": "Today's the flower dance, @.#$b#Have you thought of someone to dance with?$h#$e#I'm sure anyone you ask would say yes!$h#$b#You are an amazing fellow!$h", //Flower Dance
+                "spring_28": "When I first came to the surface, I was very scared.$s#$b#I didn't know where to go, the sun was bright and I got lost immediately.$s#$e#Thankfully, that night, Krobus found me before anyone else did.#$b#He helped me find a safe place to stay. I'm very, very grateful for him.$8",
+
+                "summer_SenS": "Goodness gracious, the summer is so brutal.$s#$b#While I was perusing my atlas, I read about the Calico Desert. Apparently it's even hotter there.#$e#My first thought was \"No thank you, I never want to go there!\".$u",
+                "summer_10": "Time to get out the sand castle costume for tomorrow.$12#$b#Fun fact, it's still full of sand from last year.$8", // Day before Luau
+                "summer_11": "I'm getting my sand castle disguise ready...$h#$b#Remember not to draw too much attention to me!$8#$e#I will be buried in the sand, so I'd be at the mercy of anyone who lifts the cloth!$u", // Luau
+                "summer_15": "Hmmm. I'm a bit stumped on what to read. Could you give me some recommendations?#$b#$y'What will you recommend?_The non-fiction book: {{Random:A Guidebook to++The Encyclopedia of++The Lost Files of ++A History of|inputSeparator=++}} {{Random:Motherhood++Computer Science++Snails++World Hunger++Llamas|inputSeparator=++}}_Hmm... Sounds interesting! I'm always dying to know more about the surface world.$h_The romance novel: {{Random:Lost++Beloved++Strange++Fickle++Tsundere++I Love My|inputSeparator=++}} {{Random:City++Dudes++Mistress++Monster++Lone Wolf++Trashcan|inputSeparator=++}}_ Y-you want me to read a romance novel? Romantic love is a rather foreign concept to me, but I'll give it a try.$l_The fan-fiction: {{Random:Sonic++Shane++Lewis++Linus++M. Jasper++Sebastian++M. Rasmodius++Pam++Dobson|inputSeparator=++}} and the {{Random:Secret Romance++Grand Adventure++Dwarf King++Untold Secret++Mystery of Life|inputSeparator=++}}_...You want me to read what?$6", 
+                "summer_27": "Hey @, have you seen my jelly costume?$8#$b#If I don't find it by tomorrow evening, I won't be able to get a good spot to see the moonlight jellies!$u", //Day before Moonlight Jelly
+                "summer_28": "Whew, I sure am glad I found my costume.$h#$b#I thought for sure I was gonna miss out on seeing those cute little jellyfish this year!$8", //Moonlight Jelly
+
+                "fall_SenS": "Fall... This season is so, so beautiful.$l#$b#The colors are so vibrant, like nothing I've ever in the mines.$l#$e#The sun is less intense, and the air is cool, but not freezing.$l#$b#I'll probably be able to go outside more often!$h#$b#Granted wear my cloak, of course.$h",
+                "fall_15": "Oh, the fair is in town tomorrow! Can you sneak me in to play some of the games?$7#$e#I'll be in a pumpkin suit, so you can say I'm one of your human \"nephews\" or something like that.$12", //Day before stardew fair
+                "fall_16": "Remember, we've got a deal! You sneak me into some of those games today, and I'll...$h#$b#I'll...$h#$b#Hm...$8#$b#I'll give you the best treasure I find in the post-event trash tonight!$12", //Stardew Fair
+                "fall_23": "... Two words: %adj %noun.#$b#Need I say anything more?{{Random:$s++$l++$u++$a++$h|inputSeparator=++}}#$e#Sorry, I'd rather not explain further.",
+                "fall_26": "Sooo, @... Do you have enough candy prepared for Spirits Eve tomorrow?#$b#$y 'Do ya?_Definitely!_Well I wouldn't be so sure. I maaaay have ate it all before you woke up.$8_Nope._You noticed I got into it last night, didn't you?$8'", //Day before Spirits Eve
+                "fall_27": "I won't be going to Spirits Eve in any costume, so don't give me away, okay?$h#$b#Just tell everybody my costume is really convincing.$12", //Spirits Eve
+                
+                "winter_SenS": "You'd think I'd like the winter because it was cool and wet, but you'd be very wrong.#$b#It's so bright from the snow during the day.$a#$e#I'm not sure which would fry me worse, the light reflecting off the snow or the summer sun.$8#$b#At least the sun starts setting earlier in the winter. That's more time I can be outside.$h",
+                "winter_7": "", //day before ice festival
+                "winter_8": "", //ice festival
+                "winter_20": "Tonight I'm going to head down into the sewers to visit with Krobus.#$b#We like to sit around and share cave snacks.$h#$e#Tonight it's going to be {{Random:teriyaki++barbecue++sweet and sour++buttery|inputSeparator=++}} {{Random:bug steak++slimeballs++ghost fish++strange bun++snails|inputSeparator=++}}$7!",
+                "winter_24": "The Feast of the Winter Star is tomorrow, yeah?#$b#I won't be joining in the public festivities, but I'll be enjoying the cozy atmosphere from afar.$h", // Day before Winter Star
+                "winter_25": "I was feeling a bit down that I can't participate in today's festivities, so here's a little gift for you.$l[268 454 417]#$e#That was real hard to get my claws on. I hope you enjoy it, @!$h", //Winter Star
+                "winter_28": "So that's it, huh? It's the last day of another year.#$b#It feels like just yesterday I came to the surface...$u#$e#Things change so fast, don't they, @?$h#$b#Here's to another year of friendship between us!$l", //Day before new year
+                
+                //GENERIC DIALOGUE
+                "Rainy_Day_0": "a",
+                "Rainy_Day_1": "a",
+                "Rainy_Day_2": "a",
+                "Rainy_Day_3": "a",
+                "Rainy_Day_4": "a",
+                "Rainy_Day_5": "a",
+                "Rainy_Day_6": "a",
+                "Rainy_Night_0": "a",
+                "Rainy_Night_1": "aa",
+                "Rainy_Night_2": "a",
+                "Rainy_Night_3": "aa",
+                "Rainy_Night_4": "a",
+                "Rainy_Night_5": "a",
+                "Rainy_Night_6": "a",
+                "Rainy_Night_SenS": "a",
+                "Indoor_Day_0": "a",
+                "Indoor_Day_2": "a",
+                "Indoor_Day_3": "a",
+                "Indoor_Day_4": "a",
+                "Indoor_Night_0": "a",
+                "Indoor_Night_1": "a",
+                "Indoor_Night_2": "a",
+                "Indoor_Night_4": "a",
+                "Indoor_Night_5": "a",
+                "Indoor_Night_6": "aaa",
+                "Indoor_Night_SenS": "a",
+                "Outdoor_0": "A",
+                "Outdoor_1": "A",
+                "Outdoor_2": "a",
+                "Outdoor_3": "a",
+                "Outdoor_4": "a",
+                "Outdoor_SenS": "a",
+                "OneKid_0": "a",
+                "OneKid_1": "a",
+                "OneKid_3": "a",
+                "OneKid_4": "a",
+                "TwoKids_0":"a",
+                "TwoKids_1": "a",
+                "TwoKids_2": "a",
+                "TwoKids_3": "a",
+                "TwoKids_4": "a",
+            
+                //AFFECTION DIALOGUE
+            
+                "Good_0": "a",
+                "Good_1": "a",
+                "Good_2": "a",
+                "Good_3": "a",
+                "Good_4": "a",
+                "Good_5": "a",
+                "Good_6": "aa",
+                "Good_8": "a",
+                "Good_9": "a",
+                "Neutral_0": "a",
+                "Neutral_1": "a",
+                "Neutral_2": "a",
+                "Neutral_3": "a",
+                "Neutral_4": "a",
+                "Neutral_6": "a",
+                "Neutral_8": "a",
+                "Bad_0": "a",
+                "Bad_2": "a",
+                "Bad_3": "a",
+                "Bad_4": "a",
+                "Bad_5": "a",
+                "Bad_6": "a",
+                "Bad_7": "a",
+                "Bad_8": "a"
+
+               }
+        },
+        {
+            "LogName": "Dialogue changes post-partners",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+                //custom fixed
+                "Utility.cs.5367": "", //Wedding speech M
+                "Utility.cs.5369": "", //Wedding speech F
+                "Utility.cs.5370": "Well, let's get right to it!", //intermission
+                "Utility.cs.5371": "", //Pronounce u partners
+                "Utility.cs.5373": "", //Pronounce u partners
+                "Utility.cs.5375": "", //Pronounce u partners
+                "Utility.cs.5377": "", //Pronounce u partners
+                "ExtraDialogue_Spouse_KitchenBlocked": "",
+                "ExtraDialogue_Spouse_MonstersInHouse": "",
+                "NoBed_0": "",
+                "NoBed_1": "",
+                "NoBed_2": "",
+                "NoBed_3": "",
+                "ExtraDialogue_NewChild_SecondChild1": "",
+                "ExtraDialogue_NewChild_SecondChild2": "",
+                "ExtraDialogue_NewChild_Adoption": "",
+                "ExtraDialogue_NewChild_FirstChild": "",
+                "NPC.cs.4001": "", // Post stardrop
+                "NPC.cs.4275": "", //pos Birthday
+                "NPC.cs.4281": "", //neutral Birthday
+                "GiftReaction_Void_Ghost_Pendant": "Oh @, you're such a silly goose.$8#$b#We're already living together![808]$h",
+                "GiftReaction_Void_Ghost_Pendant_Birthday": "Oh @, you're such a goofball...$l#$b#I suppose this means you most certainly don't want me to go anywhere, huh?$12#$b#I can't think of a happier sentiment to receive on my birthday!$h",
+                "GiftReaction_Pumpkin": "Ooooh, a pumpkin! Thank you, @!$7#$b#I'm gonna set this up in with a cute little face!$h",
+                "GiftReaction_Bug_Steak": "Mmm... Fresh, juicy, squishy...$l#$b#Thanks for the snack, @!$h"
+            }
+    }
+    ]
+}

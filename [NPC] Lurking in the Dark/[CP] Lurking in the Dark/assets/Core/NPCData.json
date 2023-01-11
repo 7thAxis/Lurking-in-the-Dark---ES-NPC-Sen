@@ -1,0 +1,75 @@
+{
+    "Changes": [
+        //Dispositions           
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "SenS": "adult/polite/shy/neutral/male/not-datable//Other/winter 13//Custom_ES_TNPCWaitingWarpRoom 7 7/{{i18n:Core.SenS.Name}}"
+            },
+            "When": {
+                "HasSeenEvent: |contains=107701000": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "SenS": "adult/polite/shy/neutral/male/not-datable//Other/winter 13//Custom_ESOrchardHouse 1 8/{{i18n:Core.SenS.Name}}"
+            },
+            "When": {
+                "HasSeenEvent: |contains=107701000": true
+            }
+        },
+      /*  {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "SenS": "adult/polite/shy/neutral/male/datable//Other/winter 13//Custom_ESOrchardHouse 1 8/{{i18n:Core.SenS.Name}}"
+            },
+            "When": {
+                "HasSeenEvent: |contains=1077010011": true,
+                "HasSeenEvent: |contains=107701000": true,
+                "Relationship Type": "Spouse"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Void Ghost Pendant"
+                    ],
+                    "Value": "propose_roommate_sens",
+                    "Delimiter": ", "
+                }
+            ],
+            "When": {
+                "HasSeenEvent: |contains=1077010011": true,
+                "HasSeenEvent: |contains=107701000": true,
+                "Relationship Type": "Roommate"
+            }
+        },*/
+        //Custom NPC Exclusions
+        {
+            "LogName": "Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+                "SenS": "WinterStar IslandVisit Socialize ShopDialog BeGreeted Greet MovieInvite"
+            }
+        },
+        //Gift Tastes
+        {
+            "LogName": "Sen Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "SenS": "{{i18n:Gifts.SenS.GiftReaction.Love}}/72 108 124 337 418 428 565 575 874/{{i18n:Gifts.SenS.GiftReaction.Like}}/-80 74 156 203 276 308 376 395 440 444 721 766 773 795 814/{{i18n:Gifts.SenS.GiftReaction.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.GiftReaction.Hate}}/96 97 98 99 121 122 248 769/{{i18n:Gifts.SenS.GiftReaction.Neutral}}/-79 -75 -26 -20 -7 279 446 459 613 634 635 637 638 636 724 797 808 873/"
+            }
+        }
+    ]
+}

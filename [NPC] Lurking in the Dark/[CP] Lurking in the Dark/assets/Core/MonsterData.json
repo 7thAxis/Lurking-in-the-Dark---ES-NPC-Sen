@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        /*STAT CHANGES, EASYMODE: FALSE
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Shadow Guy": "125/4/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/2/.0/0/2/.0/true/15/Shadow Guy",
+                "Shadow Brute": "160/5/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/0/3/.0/true/15/Shadow Brute",
+                "Shadow Shaman": "80/4/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/0/3/.0/true/15/Shadow Shaman",
+                "Shadow Sniper": "300/5/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.1/0/3/.0/true/20/Shadow Sniper"
+            }
+        },*/
+        
+        //STAT CHANGES, PACIFISTMODE:TRUE
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Shadow Guy": "999999/20/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/999999/.01/-1/2/.0/true/15/Shadow Guy",
+                "Shadow Brute": "999999/18/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/999999/.01/8/3/.0/true/15/Shadow Brute",
+                "Shadow Shaman": "999999/17/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/999999/.01/8/3/.0/true/15/Shadow Shaman",
+                "Shadow Sniper": "999999/18/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/999999/.1/8/3/.0/true/20/Shadow Sniper"
+            },
+            "When": {
+                "Pacifist Mode":true
+             }
+        } 
+    ]
+}
